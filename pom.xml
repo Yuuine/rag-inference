@@ -45,6 +45,22 @@
             <artifactId>spring-boot-starter-webmvc-test</artifactId>
             <scope>test</scope>
         </dependency>
+<!--        &lt;!&ndash; openai api &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.ai</groupId>-->
+<!--            <artifactId>spring-ai-openai-spring-boot-starter</artifactId>-->
+<!--            <version>1.0.0-M6</version>-->
+<!--        </dependency>-->
+        <!-- web flux -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-webflux</artifactId>
+        </dependency>
+        <!-- jackson -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
